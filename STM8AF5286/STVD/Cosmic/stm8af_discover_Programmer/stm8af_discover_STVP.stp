@@ -1,0 +1,19 @@
+[Last Settings]
+Hardware=ST-LINK
+PROTOCOL=SWIM
+Port=USB
+DEVICE=STM8AF528
+Verify after programming=1
+Blank check before programming (when available)=1
+Erase device memory before programming (when available)=0
+Unlock protection before a programming cycle=1
+[DATA MEMORY]
+Count=0
+ProgramEvenIfBlank=0
+[PROGRAM MEMORY]
+Count=0
+ProgramEvenIfBlank=0
+[OPTION BYTE]
+Count=1
+File0=E:\PROJEKTS\STM8A\STMicroelectronics\AN4101_\Projects\STM8AF_Discover\STVD\Cosmic\stm8af_discover_Programmer\stm8af_discover_STVP_OPTION BYTE.hex
+ProgramEvenIfBlank=0

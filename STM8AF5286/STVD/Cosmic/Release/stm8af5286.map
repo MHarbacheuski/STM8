@@ -1,0 +1,815 @@
+
+Map of Release\stm8af5286.sm8 from link file Release\stm8af5286.lkf - Wed Jun 19 16:03:21 2019
+
+
+                               --------
+                               Segments
+                               --------
+
+start 00008080 end 00008154 length   212 segment .const
+start 0000817b end 000099a6 length  6187 segment .text
+start 00004000 end 00004000 length     0 segment .eeprom
+start 00000000 end 0000001f length    31 segment .bsct, initialized
+start 0000815c end 0000817b length    31 segment .bsct, from
+start 0000001f end 00000044 length    37 segment .ubsct
+start 00000044 end 00000044 length     0 segment .bit
+start 00000044 end 00000044 length     0 segment .share
+start 00000100 end 00000100 length     0 segment .data
+start 00000100 end 00000100 length     0 segment .bss
+start 00000000 end 00000795 length  1941 segment .info.
+start 00008000 end 00008080 length   128 segment .const
+start 00008154 end 0000815c length     8 segment .init
+
+
+                               -------
+                               Modules
+                               -------
+
+C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8:
+start 0000817b end 000081cb length    80 section .text
+start 00000100 end 00000100 length     0 section .bss
+start 0000001f end 0000001f length     0 section .ubsct
+start 00000000 end 00000034 length    52 section .info.
+
+Release\stm8s_can.o:
+start 000081cb end 00008f44 length  3449 section .text
+start 00000000 end 00000010 length    16 section .bsct
+start 00000034 end 000000b2 length   126 section .info.
+start 00008080 end 000080c5 length    69 section .const
+
+Release\stm8s_clk.o:
+start 00008f44 end 0000950f length  1483 section .text
+start 000000b2 end 00000130 length   126 section .info.
+start 000080c5 end 0000810e length    73 section .const
+
+Release\stm8s_gpio.o:
+start 0000950f end 00009619 length   266 section .text
+start 00000130 end 000001af length   127 section .info.
+start 0000810e end 0000814c length    62 section .const
+
+Release\stm8s_it.o:
+start 00009619 end 00009634 length    27 section .text
+start ******** end ******** length     0 section .ubsct *** removed ***
+start 000001af end 0000022c length   125 section .info.
+
+Release\can.o:
+start 00009634 end 000096a1 length   109 section .text
+start 00000010 end 0000001f length    15 section .bsct
+start 0000001f end 00000021 length     2 section .ubsct
+start 0000022c end 000002a4 length   120 section .info.
+
+Release\main.o:
+start 000096a1 end 0000976b length   202 section .text
+start 00000021 end 0000003a length    25 section .ubsct
+start 000002a4 end 0000031d length   121 section .info.
+start 0000814c end 00008154 length     8 section .const
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o:
+start 0000976b end 0000978b length    32 section .text
+start 0000031d end 0000034c length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsdiv.o:
+start 0000978b end 000097aa length    31 section .text
+start 0000034c end 0000037c length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o:
+start 000097aa end 00009895 length   235 section .text
+start 0000037c end 000003ab length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o:
+start 00009895 end 000098a5 length    16 section .text
+start 000003ab end 000003db length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o:
+start 000098a5 end 000098b8 length    19 section .text
+start 000003db end 0000040b length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgursh.o:
+start 000098b8 end 000098c6 length    14 section .text
+start 0000040b end 0000043c length    49 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o:
+start 000098c6 end 000098d5 length    15 section .text
+start 0000043c end 0000046b length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o:
+start 000098d5 end 000098ea length    21 section .text
+start 0000046b end 0000049a length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o:
+start 000098ea end 00009902 length    24 section .text
+start 0000049a end 000004c8 length    46 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o:
+start 0000003a end 0000003e length     4 section .ubsct
+start 000004c8 end 000004f7 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o:
+start 00009902 end 00009914 length    18 section .text
+start 000004f7 end 00000526 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o:
+start 00009914 end 00009928 length    20 section .text
+start 00000526 end 00000556 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o:
+start 00009928 end 00009937 length    15 section .text
+start 00000556 end 00000586 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o:
+start 00009937 end 00009949 length    18 section .text
+start 00000586 end 000005b5 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o:
+start 00009949 end 00009954 length    11 section .text
+start 000005b5 end 000005e4 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o:
+start 00009954 end 0000995b length     7 section .text
+start 000005e4 end 00000614 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o:
+start 0000995b end 00009997 length    60 section .text
+start 00000614 end 00000643 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o:
+start 0000003e end 00000041 length     3 section .ubsct
+start 00000643 end 00000672 length    47 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o:
+start 00009997 end 000099a6 length    15 section .text
+start 00000672 end 000006a2 length    48 section .info.
+
+(C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o:
+start 00000041 end 00000044 length     3 section .ubsct
+start 000006a2 end 000006d1 length    47 section .info.
+
+Release\stm8_interrupt_vector.o:
+start 000006d1 end 0000075b length   138 section .info.
+start 00008000 end 00008080 length   128 section .const
+
+
+                             -----------
+                             Stack usage
+                             -----------
+
+Release\can.o:
+_CAN_Config                            51   (20)
+_get_CANmsg                            20   (2)
+_transmit2                             26   (3)
+
+Release\main.o:
+L3_CLK_Config                          12   (3)
+L5_GPIO_Config                         14   (2)
+_CLK_GetClockFreq1                 >   29   (15)
+_assert_failed                          6   (6)
+_main                              >   53   (2)
+
+Release\stm8s_can.o:
+L3_CheckITStatus                        5   (5)
+_CAN_CancelTransmit                >   10   (4)
+_CAN_ClearFlag                     >   11   (5)
+_CAN_ClearITPendingBit             >   11   (5)
+_CAN_DeInit                            14   (2)
+_CAN_FIFORelease                        2   (2)
+_CAN_FilterInit                        31   (19)
+_CAN_GetFlagStatus                     12   (6)
+_CAN_GetITStatus                   >   12   (6)
+_CAN_GetLastErrorCode              >    6   (4)
+_CAN_GetMessageTimeStamp           >    7   (5)
+_CAN_GetReceivedDLC                >    2   (2)
+_CAN_GetReceivedData               >    9   (3)
+_CAN_GetReceivedFMI                >    2   (2)
+_CAN_GetReceivedIDE                >    2   (2)
+_CAN_GetReceivedId                 >    4   (2)
+_CAN_GetReceivedRTR                >    2   (2)
+_CAN_GetSelectedPage                    2   (2)
+_CAN_ITConfig                      >   14   (8)
+_CAN_Init                              18   (12)
+_CAN_MessagePending                >    3   (3)
+_CAN_OperatingModeRequest              12   (6)
+_CAN_Receive                           18   (15)
+_CAN_ST7CompatibilityCmd           >    9   (3)
+_CAN_SelectPage                         2   (2)
+_CAN_Sleep                         >    3   (3)
+_CAN_TTComModeCmd                  >   10   (4)
+_CAN_Transmit                          23   (17)
+_CAN_TransmitStatus                >   10   (4)
+_CAN_WakeUp                        >    3   (3)
+
+Release\stm8s_clk.o:
+_CLK_AdjustHSICalibrationValue     >    9   (3)
+_CLK_CCOCmd                        >    9   (3)
+_CLK_CCOConfig                     >    9   (3)
+_CLK_ClearITPendingBit             >    9   (3)
+_CLK_ClockSecuritySystemEnable     >    2   (2)
+_CLK_ClockSwitchCmd                >    9   (3)
+_CLK_ClockSwitchConfig             >   16   (10)
+_CLK_DeInit                        >    2   (2)
+_CLK_FastHaltWakeUpCmd             >    9   (3)
+_CLK_GetClockFreq                  >   25   (11)
+_CLK_GetFlagStatus                 >   13   (7)
+_CLK_GetITStatus                   >   10   (4)
+_CLK_GetSYSCLKSource               >    2   (2)
+_CLK_HSECmd                        >    9   (3)
+_CLK_HSICmd                        >    9   (3)
+_CLK_HSIPrescalerConfig                 9   (3)
+_CLK_ITConfig                      >   10   (4)
+_CLK_LSICmd                        >    9   (3)
+_CLK_PeripheralClockConfig         >   10   (4)
+_CLK_SWIMConfig                    >    9   (3)
+_CLK_SYSCLKConfig                  >    9   (3)
+_CLK_SYSCLKEmergencyClear          >    2   (2)
+_CLK_SlowActiveHaltWakeUpCmd       >    9   (3)
+
+Release\stm8s_gpio.o:
+_GPIO_DeInit                       >    2   (2)
+_GPIO_ExternalPullUpConfig         >   12   (6)
+_GPIO_Init                             12   (6)
+_GPIO_ReadInputData                >    2   (2)
+_GPIO_ReadInputPin                 >    5   (5)
+_GPIO_ReadOutputData               >    2   (2)
+_GPIO_Write                        >    5   (5)
+_GPIO_WriteHigh                    >    5   (5)
+_GPIO_WriteLow                     >    5   (5)
+_GPIO_WriteReverse                 >    5   (5)
+
+Release\stm8s_it.o:
+f_ADC2_IRQHandler                  >    6   (6)
+f_AWU_IRQHandler                   >    6   (6)
+f_CAN_RX_IRQHandler                >    6   (6)
+f_CAN_TX_IRQHandler                >    6   (6)
+f_CLK_IRQHandler                   >    6   (6)
+f_EEPROM_EEC_IRQHandler            >    6   (6)
+f_EXTI_PORTA_IRQHandler            >    6   (6)
+f_EXTI_PORTB_IRQHandler            >    6   (6)
+f_EXTI_PORTC_IRQHandler            >    6   (6)
+f_EXTI_PORTD_IRQHandler            >    6   (6)
+f_EXTI_PORTE_IRQHandler            >    6   (6)
+f_I2C_IRQHandler                   >    6   (6)
+f_NonHandledInterrupt              >    6   (6)
+f_SPI_IRQHandler                   >    6   (6)
+f_TIM1_CAP_COM_IRQHandler          >    6   (6)
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler  >    6   (6)
+f_TIM2_CAP_COM_IRQHandler          >    6   (6)
+f_TIM2_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM3_CAP_COM_IRQHandler          >    6   (6)
+f_TIM3_UPD_OVF_BRK_IRQHandler      >    6   (6)
+f_TIM4_UPD_OVF_IRQHandler          >    6   (6)
+f_TLI_IRQHandler                   >    6   (6)
+f_TRAP_IRQHandler                  >    6   (6)
+f_UART1_RX_IRQHandler              >    6   (6)
+f_UART1_TX_IRQHandler              >    6   (6)
+f_UART3_RX_IRQHandler              >    6   (6)
+f_UART3_TX_IRQHandler              >    6   (6)
+
+Stack size: 59
+
+
+                              ---------
+                              Call tree
+                              ---------
+   1 > _CAN_CancelTransmit: (4)
+   2      + _CAN_GetSelectedPage: (2)
+   3      + _CAN_SelectPage: (2)
+   4      + _assert_failed: (6)
+       
+   5 > _CAN_ClearFlag: (5)
+   6      + _CAN_GetSelectedPage --> 2
+   7      + _CAN_SelectPage --> 3
+   8      + _assert_failed --> 4
+       
+   9 > _CAN_ClearITPendingBit: (5)
+  10      + _CAN_GetSelectedPage --> 2
+  11      + _CAN_SelectPage --> 3
+  12      + _assert_failed --> 4
+       
+  13 > _CAN_GetITStatus: (6)
+  14      + L3_CheckITStatus: (5)
+  15      + _CAN_GetSelectedPage --> 2
+  16      + _CAN_SelectPage --> 3
+  17      + _assert_failed --> 4
+       
+  18 > _CAN_GetLastErrorCode: (4)
+  19      + _CAN_GetSelectedPage --> 2
+  20      + _CAN_SelectPage --> 3
+       
+  21 > _CAN_GetMessageTimeStamp: (5)
+  22      + _CAN_GetSelectedPage --> 2
+  23      + _CAN_SelectPage --> 3
+       
+  24 > _CAN_GetReceivedDLC: (2)
+
+  25 > _CAN_GetReceivedData: (3)
+  26      + _assert_failed --> 4
+       
+  27 > _CAN_GetReceivedFMI: (2)
+
+  28 > _CAN_GetReceivedIDE: (2)
+
+  29 > _CAN_GetReceivedId: (2)
+
+  30 > _CAN_GetReceivedRTR: (2)
+
+  31 > _CAN_ITConfig: (8)
+  32      + _CAN_GetSelectedPage --> 2
+  33      + _CAN_SelectPage --> 3
+  34      + _assert_failed --> 4
+       
+  35 > _CAN_MessagePending: (3)
+
+  36 > _CAN_ST7CompatibilityCmd: (3)
+  37      + _assert_failed --> 4
+       
+  38 > _CAN_Sleep: (3)
+
+  39 > _CAN_TTComModeCmd: (4)
+  40      + _CAN_GetSelectedPage --> 2
+  41      + _CAN_SelectPage --> 3
+  42      + _assert_failed --> 4
+       
+  43 > _CAN_TransmitStatus: (4)
+  44      + _assert_failed --> 4
+       
+  45 > _CAN_WakeUp: (3)
+
+  46 > _CLK_AdjustHSICalibrationValue: (3)
+  47      + _assert_failed --> 4
+       
+  48 > _CLK_CCOCmd: (3)
+  49      + _assert_failed --> 4
+       
+  50 > _CLK_CCOConfig: (3)
+  51      + _assert_failed --> 4
+       
+  52 > _CLK_ClearITPendingBit: (3)
+  53      + _assert_failed --> 4
+       
+  54 > _CLK_ClockSecuritySystemEnable: (2)
+
+  55 > _CLK_ClockSwitchCmd: (3)
+  56      + _assert_failed --> 4
+       
+  57 > _CLK_ClockSwitchConfig: (10)
+  58      + _assert_failed --> 4
+       
+  59 > _CLK_DeInit: (2)
+
+  60 > _CLK_FastHaltWakeUpCmd: (3)
+  61      + _assert_failed --> 4
+       
+  62 > _CLK_GetClockFreq: (11)
+
+  63 > _CLK_GetClockFreq1: (15)
+
+  64 > _CLK_GetFlagStatus: (7)
+  65      + _assert_failed --> 4
+       
+  66 > _CLK_GetITStatus: (4)
+  67      + _assert_failed --> 4
+       
+  68 > _CLK_GetSYSCLKSource: (2)
+
+  69 > _CLK_HSECmd: (3)
+  70      + _assert_failed --> 4
+       
+  71 > _CLK_HSICmd: (3)
+  72      + _assert_failed --> 4
+       
+  73 > _CLK_ITConfig: (4)
+  74      + _assert_failed --> 4
+       
+  75 > _CLK_LSICmd: (3)
+  76      + _assert_failed --> 4
+       
+  77 > _CLK_PeripheralClockConfig: (4)
+  78      + _assert_failed --> 4
+       
+  79 > _CLK_SWIMConfig: (3)
+  80      + _assert_failed --> 4
+       
+  81 > _CLK_SYSCLKConfig: (3)
+  82      + _assert_failed --> 4
+       
+  83 > _CLK_SYSCLKEmergencyClear: (2)
+
+  84 > _CLK_SlowActiveHaltWakeUpCmd: (3)
+  85      + _assert_failed --> 4
+       
+  86 > _GPIO_DeInit: (2)
+
+  87 > _GPIO_ExternalPullUpConfig: (6)
+  88      + _assert_failed --> 4
+       
+  89 > _GPIO_ReadInputData: (2)
+
+  90 > _GPIO_ReadInputPin: (5)
+
+  91 > _GPIO_ReadOutputData: (2)
+
+  92 > _GPIO_Write: (5)
+
+  93 > _GPIO_WriteHigh: (5)
+
+  94 > _GPIO_WriteLow: (5)
+
+  95 > _GPIO_WriteReverse: (5)
+
+  96 > __stext: (0)
+
+  97 > _main: (2)
+  98      + L3_CLK_Config: (3)
+  99      |    + _CLK_HSIPrescalerConfig: (3)
+ 100      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 101      + L5_GPIO_Config: (2)
+ 102      |    + _GPIO_Init: (6)
+ 103      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 104      + _CAN_Config: (20)
+ 105      |    + _CAN_DeInit: (2)
+ 106      |    |    + _CAN_OperatingModeRequest: (6)
+ 107      |    |    |    + _assert_failed --> 4
+          |    |    | 
+          |    | 
+ 108      |    + _CAN_FilterInit: (19)
+ 109      |    |    + _CAN_GetSelectedPage --> 2
+ 110      |    |    + _CAN_OperatingModeRequest --> 106
+ 111      |    |    + _CAN_SelectPage --> 3
+ 112      |    |    + _assert_failed --> 4
+          |    | 
+ 113      |    + _CAN_Init: (12)
+ 114      |    |    + _CAN_GetSelectedPage --> 2
+ 115      |    |    + _CAN_SelectPage --> 3
+ 116      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+ 117      + _get_CANmsg: (2)
+ 118      |    + _CAN_GetFlagStatus: (6)
+ 119      |    |    + _CAN_GetSelectedPage --> 2
+ 120      |    |    + _CAN_SelectPage --> 3
+ 121      |    |    + _assert_failed --> 4
+          |    | 
+ 122      |    + _CAN_Receive: (15)
+ 123      |    |    + _CAN_FIFORelease: (2)
+ 124      |    |    + _CAN_GetSelectedPage --> 2
+ 125      |    |    + _CAN_SelectPage --> 3
+          |    | 
+          | 
+ 126      + _transmit2: (3)
+ 127      |    + _CAN_Transmit: (17)
+ 128      |    |    + _CAN_GetSelectedPage --> 2
+ 129      |    |    + _CAN_SelectPage --> 3
+ 130      |    |    + _assert_failed --> 4
+          |    | 
+          | 
+       
+ 131 > f_ADC2_IRQHandler: (6)
+
+ 132 > f_AWU_IRQHandler: (6)
+
+ 133 > f_CAN_RX_IRQHandler: (6)
+
+ 134 > f_CAN_TX_IRQHandler: (6)
+
+ 135 > f_CLK_IRQHandler: (6)
+
+ 136 > f_EEPROM_EEC_IRQHandler: (6)
+
+ 137 > f_EXTI_PORTA_IRQHandler: (6)
+
+ 138 > f_EXTI_PORTB_IRQHandler: (6)
+
+ 139 > f_EXTI_PORTC_IRQHandler: (6)
+
+ 140 > f_EXTI_PORTD_IRQHandler: (6)
+
+ 141 > f_EXTI_PORTE_IRQHandler: (6)
+
+ 142 > f_I2C_IRQHandler: (6)
+
+ 143 > f_NonHandledInterrupt: (6)
+
+ 144 > f_SPI_IRQHandler: (6)
+
+ 145 > f_TIM1_CAP_COM_IRQHandler: (6)
+
+ 146 > f_TIM1_UPD_OVF_TRG_BRK_IRQHandler: (6)
+
+ 147 > f_TIM2_CAP_COM_IRQHandler: (6)
+
+ 148 > f_TIM2_UPD_OVF_BRK_IRQHandler: (6)
+
+ 149 > f_TIM3_CAP_COM_IRQHandler: (6)
+
+ 150 > f_TIM3_UPD_OVF_BRK_IRQHandler: (6)
+
+ 151 > f_TIM4_UPD_OVF_IRQHandler: (6)
+
+ 152 > f_TLI_IRQHandler: (6)
+
+ 153 > f_TRAP_IRQHandler: (6)
+
+ 154 > f_UART1_RX_IRQHandler: (6)
+
+ 155 > f_UART1_TX_IRQHandler: (6)
+
+ 156 > f_UART3_RX_IRQHandler: (6)
+
+ 157 > f_UART3_TX_IRQHandler: (6)
+
+ 158   L3_CLK_Config --> 98
+
+ 159   L3_CheckITStatus --> 14
+
+ 160   L5_GPIO_Config --> 101
+
+ 161   _CAN_Config --> 104
+
+ 162   _CAN_DeInit --> 105
+
+ 163   _CAN_FIFORelease --> 123
+
+ 164   _CAN_FilterInit --> 108
+
+ 165   _CAN_GetFlagStatus --> 118
+
+ 166   _CAN_GetSelectedPage --> 2
+
+ 167   _CAN_Init --> 113
+
+ 168   _CAN_OperatingModeRequest --> 106
+
+ 169   _CAN_Receive --> 122
+
+ 170   _CAN_SelectPage --> 3
+
+ 171   _CAN_Transmit --> 127
+
+ 172   _CLK_HSIPrescalerConfig --> 99
+
+ 173   _GPIO_Init --> 102
+
+ 174   _assert_failed --> 4
+
+ 175   _get_CANmsg --> 117
+
+ 176   _transmit2 --> 126
+
+
+
+                               -------
+                               Symbols
+                               -------
+
+_CAN_CancelTransmit                 0000896f   defined in Release\stm8s_can.o section .text
+_CAN_ClearFlag                      00008c05   defined in Release\stm8s_can.o section .text
+_CAN_ClearITPendingBit              00008e88   defined in Release\stm8s_can.o section .text
+_CAN_Config                         0000965e   defined in Release\can.o section .text
+                                               used in Release\main.o
+_CAN_DeInit                         000081cb   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_FIFORelease                    000089a0   defined in Release\stm8s_can.o section .text
+_CAN_FilterInit                     0000834c   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_GetFlagStatus                  00008c7e   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_GetITStatus                    00008d48   defined in Release\stm8s_can.o section .text
+_CAN_GetLastErrorCode               00008beb   defined in Release\stm8s_can.o section .text
+_CAN_GetMessageTimeStamp            00008af2   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedDLC                 00008ad0   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedData                00008ad3   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedFMI                 00008aef   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedIDE                 00008aca   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedId                  00008ac4   defined in Release\stm8s_can.o section .text
+_CAN_GetReceivedRTR                 00008acd   defined in Release\stm8s_can.o section .text
+_CAN_GetSelectedPage                00008f30   defined in Release\stm8s_can.o section .text
+_CAN_ITConfig                       0000867e   defined in Release\stm8s_can.o section .text
+_CAN_Init                           0000823d   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_MessagePending                 000089a5   defined in Release\stm8s_can.o section .text
+_CAN_OperatingModeRequest           00008b4f   defined in Release\stm8s_can.o section .text
+_CAN_Receive                        000089ab   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_ST7CompatibilityCmd            000086fe   defined in Release\stm8s_can.o section .text
+_CAN_SelectPage                     00008f34   defined in Release\stm8s_can.o section .text
+_CAN_Sleep                          00008b1b   defined in Release\stm8s_can.o section .text
+_CAN_TTComModeCmd                   00008722   defined in Release\stm8s_can.o section .text
+_CAN_Transmit                       00008792   defined in Release\stm8s_can.o section .text
+                                               used in Release\can.o
+_CAN_TransmitStatus                 000088f1   defined in Release\stm8s_can.o section .text
+_CAN_WakeUp                         00008b3a   defined in Release\stm8s_can.o section .text
+_CLKPrescTable                      000080c9   defined in Release\stm8s_clk.o section .const
+                                               *** not used ***
+_CLK_AdjustHSICalibrationValue      000093ee   defined in Release\stm8s_clk.o section .text
+_CLK_CCOCmd                         0000900e   defined in Release\stm8s_clk.o section .text
+_CLK_CCOConfig                      00009244   defined in Release\stm8s_clk.o section .text
+_CLK_ClearITPendingBit              000094e6   defined in Release\stm8s_clk.o section .text
+_CLK_ClockSecuritySystemEnable      00009384   defined in Release\stm8s_clk.o section .text
+_CLK_ClockSwitchCmd                 00009033   defined in Release\stm8s_clk.o section .text
+_CLK_ClockSwitchConfig              00009130   defined in Release\stm8s_clk.o section .text
+_CLK_DeInit                         00008f44   defined in Release\stm8s_clk.o section .text
+_CLK_FastHaltWakeUpCmd              00008f7a   defined in Release\stm8s_clk.o section .text
+_CLK_GetClockFreq                   0000938d   defined in Release\stm8s_clk.o section .text
+_CLK_GetClockFreq1                  000096f6   defined in Release\main.o section .text
+_CLK_GetFlagStatus                  0000942d   defined in Release\stm8s_clk.o section .text
+_CLK_GetITStatus                    000094ad   defined in Release\stm8s_clk.o section .text
+_CLK_GetSYSCLKSource                00009389   defined in Release\stm8s_clk.o section .text
+_CLK_HSECmd                         00008f9f   defined in Release\stm8s_clk.o section .text
+_CLK_HSICmd                         00008fc4   defined in Release\stm8s_clk.o section .text
+_CLK_HSIPrescalerConfig             00009214   defined in Release\stm8s_clk.o section .text
+                                               used in Release\main.o
+_CLK_ITConfig                       0000929c   defined in Release\stm8s_clk.o section .text
+_CLK_LSICmd                         00008fe9   defined in Release\stm8s_clk.o section .text
+_CLK_PeripheralClockConfig          0000907d   defined in Release\stm8s_clk.o section .text
+_CLK_SWIMConfig                     0000935f   defined in Release\stm8s_clk.o section .text
+_CLK_SYSCLKConfig                   000092fb   defined in Release\stm8s_clk.o section .text
+_CLK_SYSCLKEmergencyClear           00009428   defined in Release\stm8s_clk.o section .text
+_CLK_SlowActiveHaltWakeUpCmd        00009058   defined in Release\stm8s_clk.o section .text
+_GPIO_DeInit                        0000950f   defined in Release\stm8s_gpio.o section .text
+_GPIO_ExternalPullUpConfig          000095da   defined in Release\stm8s_gpio.o section .text
+_GPIO_Init                          00009517   defined in Release\stm8s_gpio.o section .text
+                                               used in Release\main.o
+_GPIO_ReadInputData                 000095d2   defined in Release\stm8s_gpio.o section .text
+_GPIO_ReadInputPin                  000095d5   defined in Release\stm8s_gpio.o section .text
+_GPIO_ReadOutputData                000095d0   defined in Release\stm8s_gpio.o section .text
+_GPIO_Write                         000095bc   defined in Release\stm8s_gpio.o section .text
+_GPIO_WriteHigh                     000095c0   defined in Release\stm8s_gpio.o section .text
+_GPIO_WriteLow                      000095c5   defined in Release\stm8s_gpio.o section .text
+_GPIO_WriteReverse                  000095cb   defined in Release\stm8s_gpio.o section .text
+_HSIDivFactor                       000080c5   defined in Release\stm8s_clk.o section .const
+_Tx_Data                            00000013   defined in Release\can.o section .bsct, initialized
+                                               used in Release\main.o
+__DLC                               00000006   defined in Release\stm8s_can.o section .bsct, initialized
+__Data                              00000007   defined in Release\stm8s_can.o section .bsct, initialized
+                                               used in Release\main.o
+__FMI                               0000000f   defined in Release\stm8s_can.o section .bsct, initialized
+__IDE                               00000004   defined in Release\stm8s_can.o section .bsct, initialized
+__Id                                00000000   defined in Release\stm8s_can.o section .bsct, initialized
+__RTR                               00000005   defined in Release\stm8s_can.o section .bsct, initialized
+__endmem                            000013ff   defined in command file
+                                               *** not used ***
+__endzp                             00000044   defined in command file section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__idesc__                           00008154   defined in linker section .init
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__memory                            00000100   defined in command file section .bss
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__stack                             000017ff   defined in command file
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+__startmem                          00000100   defined in command file section .bss
+                                               *** not used ***
+__stext                             0000817b   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+                                               used in Release\stm8_interrupt_vector.o
+__vectab                            00008000   defined in Release\stm8_interrupt_vector.o section .const
+                                               *** not used ***
+_assert_failed                      00009769   defined in Release\main.o section .text
+                                               used in Release\stm8s_can.o
+                                                       Release\stm8s_clk.o
+                                                       Release\stm8s_gpio.o
+_cnt111                             00000029   defined in Release\main.o section .ubsct
+                                               *** not used ***
+_cntERRTx                           00000021   defined in Release\main.o section .ubsct
+_cntTx                              00000025   defined in Release\main.o section .ubsct
+_cnt_priem                          0000002d   defined in Release\main.o section .ubsct
+_exit                               000081c9   defined in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8 section .text
+_flag_rcv                           0000001f   defined in Release\can.o section .ubsct
+                                               used in Release\main.o
+_flaginitpr                         00000032   defined in Release\main.o section .ubsct
+_get_CANmsg                         00009690   defined in Release\can.o section .text
+                                               used in Release\main.o
+_main                               000096a1   defined in Release\main.o section .text
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+_statTx                             00000031   defined in Release\main.o section .ubsct
+_status_I                           00000020   defined in Release\can.o section .ubsct
+_sys_freq                           00000036   defined in Release\main.o section .ubsct
+                                               *** not used ***
+_time001                            ********   *** removed from Release\stm8s_it.o ***
+_time_adc                           ********   *** removed from Release\stm8s_it.o ***
+_time_can                           ********   *** removed from Release\stm8s_it.o ***
+_timeav                             ********   *** removed from Release\stm8s_it.o ***
+_timewdt                            ********   *** removed from Release\stm8s_it.o ***
+_transmit2                          00009634   defined in Release\can.o section .text
+                                               used in Release\main.o
+c_divsl                             000097aa   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsdiv.o
+c_divul                             000097c1   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o
+c_lcmp                              0000976b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o section .text
+                                               used in Release\stm8s_can.o
+                                                       Release\main.o
+c_ldiv                              0000978b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsdiv.o section .text
+                                               used in Release\main.o
+c_lgadc                             00009895   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgadc.o section .text
+                                               used in Release\main.o
+c_lgneg                             000098a5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lgursh                            000098b8   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lgursh.o section .text
+                                               used in Release\stm8s_can.o
+c_llsh                              000098c6   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o section .text
+                                               used in Release\stm8s_can.o
+c_lneg                              000098d5   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o section .text
+                                               used in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+c_lor                               000098ea   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o section .text
+                                               used in Release\stm8s_can.o
+c_lreg                              0000003a   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lreg.o section .ubsct
+                                               used in Release\stm8s_can.o
+                                                       Release\stm8s_clk.o
+                                                       Release\main.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lcmp.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)llsh.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lneg.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o
+c_ltor                              00009902   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ltor.o section .text
+                                               used in Release\stm8s_can.o
+                                                       Release\stm8s_clk.o
+                                                       Release\main.o
+c_ludv                              00009914   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ludiv.o section .text
+                                               used in Release\stm8s_clk.o
+c_lursh                             00009928   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lursh.o section .text
+                                               used in Release\stm8s_can.o
+c_rtol                              00009937   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)rtol.o section .text
+                                               used in Release\stm8s_can.o
+                                                       Release\stm8s_clk.o
+                                                       Release\main.o
+c_uitol                             00009949   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utol.o section .text
+                                               used in Release\stm8s_can.o
+c_uitolx                            00009954   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)utolx.o section .text
+                                               used in Release\stm8s_can.o
+c_umul                              0000995b   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o section .text
+                                               used in Release\stm8s_can.o
+c_x                                 0000003e   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)lsdiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)ldiv.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o
+c_xymvx                             00009997   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)xymvx.o section .text
+                                               used in Release\main.o
+c_y                                 00000041   defined in (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)yreg.o section .ubsct
+                                               used in C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\crtsi0.sm8
+                                                       (C:\Program Files (x86)\COSMIC\FSE_Compilers\CXSTM8\Lib\libm0.sm8)umul.o
+f_ADC2_IRQHandler                   00009631   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_AWU_IRQHandler                    0000961c   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_CAN_RX_IRQHandler                 00009623   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_CAN_TX_IRQHandler                 00009624   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_CLK_IRQHandler                    0000961d   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EEPROM_EEC_IRQHandler             00009633   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTA_IRQHandler             0000961e   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTB_IRQHandler             0000961f   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTC_IRQHandler             00009620   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTD_IRQHandler             00009621   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_EXTI_PORTE_IRQHandler             00009622   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_I2C_IRQHandler                    0000962e   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_NonHandledInterrupt               00009619   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_SPI_IRQHandler                    00009625   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM1_CAP_COM_IRQHandler           00009627   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM1_UPD_OVF_TRG_BRK_IRQHandler   00009626   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM2_CAP_COM_IRQHandler           00009629   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM2_UPD_OVF_BRK_IRQHandler       00009628   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM3_CAP_COM_IRQHandler           0000962b   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM3_UPD_OVF_BRK_IRQHandler       0000962a   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TIM4_UPD_OVF_IRQHandler           00009632   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TLI_IRQHandler                    0000961b   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_TRAP_IRQHandler                   0000961a   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART1_RX_IRQHandler               0000962d   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART1_TX_IRQHandler               0000962c   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART3_RX_IRQHandler               00009630   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
+f_UART3_TX_IRQHandler               0000962f   defined in Release\stm8s_it.o section .text
+                                               used in Release\stm8_interrupt_vector.o
